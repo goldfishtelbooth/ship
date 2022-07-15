@@ -50,7 +50,7 @@ if __name__ == '__main__':
             period = str(period)    # Convert str to int
 
        # d1 = datetime.date.today()
-        d1 = 2022-09-10
+        d1 = datetime.date(2022, 9, 10)
         d2 = (d1 + datetime.timedelta(period))
       
 
