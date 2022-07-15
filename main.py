@@ -49,8 +49,10 @@ if __name__ == '__main__':
         else:
             period = str(period)    # Convert str to int
 
-        d1 = datetime.date.today()
+       # d1 = datetime.date.today()
+        d1 = 2022-09-10
         d2 = (d1 + datetime.timedelta(period))
+      
 
 
         startDate = d1.strftime("%Y-%m-%d")
